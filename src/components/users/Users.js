@@ -1,7 +1,7 @@
-import React from "react";
-import UserItem from "./UserItem";
-import Spinner from "../layouts/Spinner";
-import PropTypes from "prop-types";
+import React from 'react';
+import UserItem from './UserItem';
+import Spinner from '../layouts/Spinner';
+import PropTypes from 'prop-types';
 
 const Users = ({ users, loading }) => {
   if (loading) {
@@ -19,9 +19,9 @@ Users.propTypes = {
   loading: PropTypes.bool.isRequired,
 };
 const userStyle = {
-  display: "flex",
-  flexWrap: "wrap",
-  justifyContent: "center",
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'center',
 };
 
 export default Users;
