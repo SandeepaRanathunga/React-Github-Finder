@@ -16,7 +16,7 @@ and latest repositories.
 This app is hosted on firebase.
 Use the link to visit the application.
 
-https://valkrie.tk/
+https://githubfinder.tk/
 
 ## License
 
